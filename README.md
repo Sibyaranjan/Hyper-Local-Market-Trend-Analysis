@@ -14,6 +14,6 @@ Local farmers, traders, and government bodies often lack data-driven insights in
 
 This helps:
 
-🌾 Farmers — decide when to sell or store crops
-🛒 Traders — plan inventory and procurement
-🏛️ Government — identify supply chain issues and intervene early
+* 🌾 Farmers — decide when to sell or store crops
+* 🛒 Traders — plan inventory and procurement
+* 🏛️ Government — identify supply chain issues and intervene early
