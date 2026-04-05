@@ -55,3 +55,50 @@ HyperLocal-Market-Analysis/
 * Forecasting      --------------------         Python (Facebook Prophet, ARIMA)
 * Visualization     --------------------        Power BI Desktop
 * Version Control   --------------------        Git + GitHub
+
+ # Data Sources
+
+data.gov.in — Government of India open data portal
+
+# Step 1 — Data Cleaning
+* Tools: SQL + Python (Pandas)
+* Key cleaning tasks performed:
+
+* Removed null / missing values in price and date columns
+* Eliminated duplicate records across market entries
+* Standardized Odia district names to English format
+* Fixed date format inconsistencies (DD-MM-YYYY → YYYY-MM-DD)
+* Detected and handled outliers using IQR method
+
+  # Step 2 — Exploratory Data Analysis (EDA)
+* Key questions answered:
+
+* Which month sees the highest commodity prices? (Seasonality)
+* Which district has the most expensive / cheapest prices? (Regional variance)
+* How much have prices increased over the past 5 years?
+* Which commodities show the most volatility?
+
+* Key findings from the dashboard:
+
+* Delhi leads with the highest average price (₹313/KG)
+* Ghee is the most expensive commodity at ₹681/KG average
+* Prices across cereals and oil categories spiked significantly around 2008–2010
+* Milk and dairy show a steady upward trend post-2015
+
+# Business Insights
+
+1. July–September sees consistent price rises in vegetables → farmers should store crops and sell post-peak
+2. Delhi and Maharashtra have significantly higher avg prices than eastern states → supply chain gap exists
+3. Ghee and Tea are the highest-priced commodities → premium product opportunity for rural cooperatives
+4. Oil prices are highly volatile (peaked 2008) → hedging strategies recommended for bulk buyers
+5. Sikkim and Manipur show above-average prices despite smaller markets → logistics cost is the likely driver
+
+ # About This Project
+Built as part of a Data Analytics Portfolio to demonstrate end-to-end skills:
+
+* Real data sourcing from government portals
+* SQL + Python data engineering
+* Statistical forecasting
+* Business storytelling via Power BI
+
+This project is specifically relevant for Odisha / India job market where hyper-local agricultural data analysis is an emerging and high-impact domain.
