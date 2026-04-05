@@ -20,6 +20,7 @@ This helps:
 
 # Project Structure
 
+```text
 HyperLocal-Market-Analysis/
 │
 ├── 📂 data/
@@ -44,13 +45,13 @@ HyperLocal-Market-Analysis/
 │   └── dashboard_preview.png       # Dashboard screenshot
 │
 └── 📄 README.md
-
+```
 # Tools & Technologies
 
-  Layer                     Tool
-* Data Collection           data.gov.in, Agmarknet.gov.in, Web Scraping (Python)
-* Data Cleaning             SQL (PostgreSQL / MySQL), Python (Pandas)
-* Analysis (EDA)            Python (Matplotlib, Seaborn), SQL Window Functions
-* Forecasting               Python (Facebook Prophet, ARIMA)
-* Visualization             Power BI Desktop
-* Version Control           Git + GitHub
+  Layer----------------------------------------Tool
+* Data Collection --------------------          data.gov.in, Agmarknet.gov.in, Web Scraping (Python)
+* Data Cleaning    --------------------         SQL (PostgreSQL / MySQL), Python (Pandas)
+* Analysis (EDA)   --------------------         Python (Matplotlib, Seaborn), SQL Window Functions
+* Forecasting      --------------------         Python (Facebook Prophet, ARIMA)
+* Visualization     --------------------        Power BI Desktop
+* Version Control   --------------------        Git + GitHub
