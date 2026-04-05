@@ -1,6 +1,6 @@
 # Hyper-Local-Market-Trend-Analysis
 
-#Project Overview
+# Project Overview
 Local farmers, traders, and government bodies often lack data-driven insights into commodity price movements. This project bridges that gap by:
 
 Tracking 41 unique commodities across 169 active markets in 31 States/UTs
